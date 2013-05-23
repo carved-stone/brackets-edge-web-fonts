@@ -281,6 +281,10 @@ define(function (require, exports, module) {
                 }
             }
         }
+        isFontNameWithWhitespace = false;
+        previousQuery = null;
+        previousCandidates = null;
+        
         return false;
     };
 
